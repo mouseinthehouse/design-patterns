@@ -33,7 +33,9 @@ burgerFactory.createVeganBurger().print()
 ```
 Output
 > `['bun', 'cheese', 'beef-patty']`
+> 
 > `['bun', 'tomatoe', 'lettuce', 'cheese', 'beef-patty']`
+> 
 > `['bun', 'special-sauce', 'veggie-patty']`
 
 ### Builder
@@ -106,7 +108,9 @@ print(appState2.isLoggedIn)
 ```
 Output
 > `False`
+> 
 > `True` 
+> 
 > `True`
 
 ## Behavioural Patterns
@@ -155,7 +159,9 @@ In this case we have multiple Subscribers listening to a single published. But u
 Since the Publishers & Subscribers don't have to worry about each others' implementations, they are loosely coupled.
 
 > `User sub1 received notification from neetcode: A new video released`
+> 
 > `User sub2 received notification from neetcode: A new video released`
+> 
 > `User sub3 received notification from neetcode: A new video released`
 
 ### Iterator
@@ -169,7 +175,9 @@ for n in myList:
 
 Output
 > `1`
+> 
 > `2` 
+> 
 > `3`
 
 For more complex objects, like Linked Lists or Binary Search Trees, we can define our own iterators.
@@ -212,7 +220,9 @@ for n in myList:
 
 Output
 > `1`
+> 
 > `2` 
+> 
 > `3`
 
 ### Strategy
@@ -258,6 +268,7 @@ print(values.filter(RemoveOddStrategy()))
 ```
 Output
 > `[0, 2, 6, 9]`
+> 
 > `[-4, 0, 2, 6]`
 
 A common alternative to this pattern is to simply pass in an inline / lambda function, which allows us to extend the behaviour of a method or class.
