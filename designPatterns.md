@@ -118,7 +118,7 @@ Output
 ### Observer / PubSub
 
 It's common for different components of an app to respond to events or state changes, but how can we communicate these events?
-The Observer pattern is a popular solution. We a Subject (aka Publisher) which will be the source of events. And we could have multiple Observers (aka Subscribers) which will recieve events from the Subject in realtime.
+The Observer pattern is a popular solution. We have a Subject (aka Publisher) which will be the source of events. And we could have multiple Observers (aka Subscribers) which will recieve events from the Subject in realtime.
 
 ```python
 class YoutubeChannel:
